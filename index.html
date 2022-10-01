@@ -7,8 +7,6 @@
     <title>Watch YouTube Video Without ADS!</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@2.19.1/dist/full.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
-<script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
 </head>
 <body>
     <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
@@ -31,17 +29,18 @@ if (getID === null || !isNaN(getID)){
         
     </script>
     <center>
-    <h1 class="mb-4 text-8xl font-bold tracking-tight text-gray-900 lg:font-extrabold lg:text-10xl lg:leading-none dark:text-white lg:text-center xl:px-36 lg:mb-7">AntiADS</h1>
-    <p class="mb-10 text-lg font-normal text-gray-500 dark:text-gray-400 lg:text-center lg:text-4xl xl:px-60">Watch Video Without Ads!</p>
+    <h1 class="mb-6 text-6xl">AntiADS</h1>
+    <p class="mb-10 text-4xl">Watch Video Without Ads!</p>
     <a href="/" target="_blank"><button class="p-5 mb-6 px-8 py-5 flex rounded-lg text-center text-6xl text-extrabold">[+] Add More Link</button></a>
 
     <br>
         
-    <h5 class="mb-2 text-6xl font-bold tracking-tight text-gray-900 dark:text-white">Link</h5>
-    <p class="font-normal text-red-700 dark:text-red-600">Warning! Not All Videos Can Be Watched!</p>
-<p class="font-normal text-gray-700 dark:text-gray-400">
+    <h5 class="mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">Link</h5>
+    <p class="font-2xl text-red-700 dark:text-red-600">Warning! Not All Videos Can Be Watched!</p>
+<p class="font-2xl text-gray-700 dark:text-gray-400">
     <script>
         document.write("Link : https://youtube.com/embed/", getID);
+        window.location.href("https://youtube.com/embed/", getID);
     </script>
     <br>
     <script>
